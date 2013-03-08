@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace MvcApplication1.Controllers
 {
-    // public class HomeController : Controller  //This line will cause the project error.
+    public class HomeController : Controller
     {
         public ActionResult Index()
         {
